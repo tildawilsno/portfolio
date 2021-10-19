@@ -20,7 +20,7 @@ main{
 body{
   display: flex;
   flex-direction: row;
-  background-color: rgb(192, 250, 230);
+  background-color: rgb(224, 255, 208);
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
@@ -98,7 +98,7 @@ audio{
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: rgb(44, 203, 147);
+  background-color: rgb(255, 255, 255);
 }
 
 img{
@@ -171,6 +171,7 @@ img{
     max-width: none;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
   }
 
   nav{
