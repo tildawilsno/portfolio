@@ -1,0 +1,201 @@
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  line-height: normal;
+}
+
+a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+
+.navpanel{
+  margin-right: 20px;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(231, 204, 247);
+  max-width: 1500px;
+  margin: 5px;
+}
+
+p{
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+}
+
+.article{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+}
+
+.article:hover{
+  text-decoration: underline;
+}
+
+.visible{
+  text-decoration: underline;
+}
+
+.visible:hover{
+  font-weight: bold;
+}
+
+.heading{
+  font-weight: bold;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.two{
+  padding-top: 20px;
+}
+
+.navvy:hover{
+  font-weight: bold;
+}
+
+h1{
+  margin: 20px;
+  font-family: bd-geminis, sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: normal;
+  font-weight: normal;
+}
+
+.navvy{
+  display: block;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.clicked{
+  font-weight: bold;
+}
+
+audio{
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(195, 143, 255);
+}
+
+img{
+  width: 400px;
+}
+
+.graphics{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column{
+  flex: 47%;
+  max-width: 47%;
+  padding: 0 4px;
+}
+
+.gallery{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.comic{
+  width: 750px;
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.comic-box{
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+
+  .comic-box{
+    width: 600px;
+  }
+
+  .comic{
+    width: 600px;
+  }
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  body{
+    display: block;
+    margin: 20px;
+  }
+
+  .navpanel{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navvy{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  nav{
+    display: block;
+  }
+
+  .navvy{
+    padding: 4px;
+    font: 120%;
+    letter-spacing: 2px;
+  }
+
+  .comic{
+    width: 500px;
+  }
+
+  .comic-box{
+    width: 500px;
+  }
+}
