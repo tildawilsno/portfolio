@@ -148,14 +148,24 @@ img{
 
   main{
     width: 100%;
+    margin: 0px;
+    padding: 0px;
   }
 
-  .comic-box{
-    width: 600px;
+  p{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .comic{
-    width: 600px;
+    width: 95%;
+  }
+
+  .comic-box{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .column {
@@ -166,6 +176,7 @@ img{
   body{
     display: block;
     margin: 20px;
+    padding: 0px;
   }
 
   .navpanel{
@@ -204,18 +215,6 @@ img{
     padding: 4px;
     font: 120%;
     letter-spacing: 2px;
-  }
-
-  .comic{
-    width: 350px;
-  }
-
-  .comic-box{
-    width: 350px;
-  }
-
-  main{
-    margin-right: 5px;
   }
 
   audio{
