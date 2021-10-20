@@ -213,4 +213,8 @@ img{
   .comic-box{
     width: 500px;
   }
+
+  main{
+    margin-right: 5px;
+  }
 }
