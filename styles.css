@@ -207,14 +207,18 @@ img{
   }
 
   .comic{
-    width: 500px;
+    width: 350px;
   }
 
   .comic-box{
-    width: 500px;
+    width: 350px;
   }
 
   main{
     margin-right: 5px;
+  }
+
+  audio{
+    width: 350px;
   }
 }
