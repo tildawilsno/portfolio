@@ -34,15 +34,6 @@ p{
   font-size: 18px;
 }
 
-.article{
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-family: 'Courier Prime', monospace;
-  font-size: 18px;
-}
-
 .article:hover{
   text-decoration: underline;
 }
@@ -145,6 +136,10 @@ img{
 }
 
 @media screen and (max-width: 900px) {
+
+  .heading{
+    margin-left: 15px;
+  }
 
   main{
     width: 100%;
