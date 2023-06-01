@@ -10,6 +10,19 @@ a:hover{
   text-decoration: none;
 }
 
+ul{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+li{
+  font-family: 'Courier Prime', Courier, monospace;
+  font-size: 12px;
+}
+
+.h {
+  margin-bottom: 5px !important;
+}
 .navpanel{
   width: 20%;
 }
@@ -34,6 +47,22 @@ p{
   font-size: 18px;
 }
 
+.close{
+  margin-bottom: 15px !important;
+}
+
+.description{
+  border: dotted #000000 1px;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-left: 5px;
+}
+
+.description-text{
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
 .article:hover{
   text-decoration: underline;
 }
@@ -48,8 +77,6 @@ p{
 
 .heading{
   font-weight: bold;
-  margin: 10px;
-  margin-left: 0px;
 }
 
 .two{
@@ -147,11 +174,11 @@ iframe{
   margin-right: auto;
 }
 
-@media screen and (max-width: 900px) {
+a .heading{
+  margin-left: 0px;
+}
 
-  .heading{
-    margin-left: 15px;
-  }
+@media screen and (max-width: 900px) {
 
   main{
     width: 100%;
@@ -159,10 +186,18 @@ iframe{
     padding: 0px;
   }
 
-  p{
+  .two {
+    margin-left: 15px !important;
+  }
+  p {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .description{
+    margin-left: 15px;
+    padding-left: 0px;
   }
 
   .comic{
@@ -214,6 +249,14 @@ iframe{
 
 @media screen and (max-width: 600px) {
 
+  .heading{
+    margin-left: 0px;
+  }
+
+  .two{
+    margin-left: 5px !important;
+  }
+
   nav{
     display: block;
   }
@@ -222,6 +265,10 @@ iframe{
     padding: 4px;
     font: 120%;
     letter-spacing: 2px;
+  }
+  .description{
+    margin-left: 15px;
+    padding-left: 0px;
   }
 
   audio{
