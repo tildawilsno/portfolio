@@ -178,12 +178,6 @@ a .heading{
   margin-left: 0px;
 }
 
-.temp{
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @media screen and (max-width: 900px) {
 
   main{
